@@ -1,0 +1,213 @@
+stdClass::__set_state(array(
+   'title' => 'Количество ограничено! Успейте забронировать!',
+   'posted_data' => 
+  array (
+    '_wpcf7' => '37',
+    '_wpcf7_version' => '4.4.2',
+    '_wpcf7_locale' => 'ru_RU',
+    '_wpcf7_unit_tag' => 'wpcf7-f37-o1',
+    'tel-739' => '123',
+    'text-762' => 'test 10',
+    '_wpcf7_is_ajax_call' => '1',
+  ),
+   'uploaded_files' => 
+  array (
+  ),
+   'WPCF7_ContactForm' => 
+  WPCF7_ContactForm::__set_state(array(
+     'id' => 37,
+     'name' => '%d1%84%d0%be%d1%80%d0%bc%d0%b0-%d1%83%d1%81%d0%bf%d0%b5%d0%b9%d1%82%d0%b5-%d0%b7%d0%b0%d0%b1%d1%80%d0%be%d0%bd%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d1%82%d1%8c',
+     'title' => 'Количество ограничено! Успейте забронировать!',
+     'properties' => 
+    array (
+      'form' => '<h3><b>Лучшие цены гарантированы!</b></h3>
+<div class="form-group">
+<label for="telTxt" class="sr-only">Ваш телефон</label>
+[tel* tel-739 id:telTxt class:tel-i_bg class:form-control placeholder "Ваш телефон"]
+</div>
+<div class="form-group">
+<label for="nameTxt" class="sr-only">Ваше имя</label>
+[text text-762 id:nameTxt class:name_bg class:form-control placeholder "Ваше имя"]
+</div>
+[submit class:btn class:btn-form "Оставить заявку"]',
+      'mail' => 
+      array (
+        'subject' => 'Запрос с сайта (форма - успейте забронировать)',
+        'sender' => '<wordpress@unilos-moskva.ru>',
+        'body' => 'Форма - успейте забронировать
+
+Телефон: [tel-739]
+Имя: [text-762]
+--
+Это сообщение отправлено с сайта Unilos Москва (http://unilos-moskva.ru)',
+        'recipient' => 'info@topas-moskva.ru',
+        'additional_headers' => '',
+        'attachments' => '',
+        'use_html' => true,
+        'exclude_blank' => false,
+      ),
+      'mail_2' => 
+      array (
+        'active' => false,
+        'subject' => '[your-subject]',
+        'sender' => 'Unilos Москва <wordpress@unilos-moskva.ru>',
+        'body' => 'Сообщение:
+[your-message]
+
+--
+Это сообщение отправлено с сайта Unilos Москва (http://unilos-moskva.ru)',
+        'recipient' => '[your-email]',
+        'additional_headers' => 'Reply-To: unilos-moskva.ru@ivannikitin.com',
+        'attachments' => '',
+        'use_html' => false,
+        'exclude_blank' => false,
+      ),
+      'messages' => 
+      array (
+        'mail_sent_ok' => 'Успешно отправлено! Спасибо!',
+        'mail_sent_ng' => '',
+        'validation_error' => '',
+        'spam' => 'Заполните поле',
+        'accept_terms' => 'Заполните поле',
+        'invalid_required' => 'Заполните поле',
+        'invalid_too_long' => 'Заполните поле',
+        'invalid_too_short' => 'Заполните поле',
+        'captcha_not_match' => 'Заполните поле',
+        'invalid_number' => 'Заполните поле',
+        'number_too_small' => 'Заполните поле',
+        'number_too_large' => 'Заполните поле',
+        'invalid_email' => 'Заполните поле',
+        'invalid_url' => 'Заполните поле',
+        'invalid_tel' => 'Заполните поле',
+        'quiz_answer_not_correct' => 'Заполните поле',
+        'invalid_date' => 'Заполните поле',
+        'date_too_early' => 'Заполните поле',
+        'date_too_late' => 'Заполните поле',
+        'upload_failed' => 'Заполните поле',
+        'upload_file_type_invalid' => 'Заполните поле',
+        'upload_file_too_large' => 'Заполните поле',
+        'upload_failed_php_error' => 'Заполните поле',
+      ),
+      'additional_settings' => '',
+    ),
+     'unit_tag' => NULL,
+     'responses_count' => 0,
+     'scanned_form_tags' => 
+    array (
+      0 => 
+      array (
+        'type' => 'tel*',
+        'basetype' => 'tel',
+        'name' => 'tel-739',
+        'options' => 
+        array (
+          0 => 'id:telTxt',
+          1 => 'class:tel-i_bg',
+          2 => 'class:form-control',
+          3 => 'placeholder',
+        ),
+        'raw_values' => 
+        array (
+          0 => 'Ваш телефон',
+        ),
+        'values' => 
+        array (
+          0 => 'Ваш телефон',
+        ),
+        'pipes' => 
+        WPCF7_Pipes::__set_state(array(
+           'pipes' => 
+          array (
+            0 => 
+            WPCF7_Pipe::__set_state(array(
+               'before' => 'Ваш телефон',
+               'after' => 'Ваш телефон',
+            )),
+          ),
+        )),
+        'labels' => 
+        array (
+          0 => 'Ваш телефон',
+        ),
+        'attr' => '',
+        'content' => '',
+      ),
+      1 => 
+      array (
+        'type' => 'text',
+        'basetype' => 'text',
+        'name' => 'text-762',
+        'options' => 
+        array (
+          0 => 'id:nameTxt',
+          1 => 'class:name_bg',
+          2 => 'class:form-control',
+          3 => 'placeholder',
+        ),
+        'raw_values' => 
+        array (
+          0 => 'Ваше имя',
+        ),
+        'values' => 
+        array (
+          0 => 'Ваше имя',
+        ),
+        'pipes' => 
+        WPCF7_Pipes::__set_state(array(
+           'pipes' => 
+          array (
+            0 => 
+            WPCF7_Pipe::__set_state(array(
+               'before' => 'Ваше имя',
+               'after' => 'Ваше имя',
+            )),
+          ),
+        )),
+        'labels' => 
+        array (
+          0 => 'Ваше имя',
+        ),
+        'attr' => '',
+        'content' => '',
+      ),
+      2 => 
+      array (
+        'type' => 'submit',
+        'basetype' => 'submit',
+        'name' => '',
+        'options' => 
+        array (
+          0 => 'class:btn',
+          1 => 'class:btn-form',
+        ),
+        'raw_values' => 
+        array (
+          0 => 'Оставить заявку',
+        ),
+        'values' => 
+        array (
+          0 => 'Оставить заявку',
+        ),
+        'pipes' => 
+        WPCF7_Pipes::__set_state(array(
+           'pipes' => 
+          array (
+            0 => 
+            WPCF7_Pipe::__set_state(array(
+               'before' => 'Оставить заявку',
+               'after' => 'Оставить заявку',
+            )),
+          ),
+        )),
+        'labels' => 
+        array (
+          0 => 'Оставить заявку',
+        ),
+        'attr' => '',
+        'content' => '',
+      ),
+    ),
+     'config_validator' => NULL,
+     'locale' => 'ru_RU',
+  )),
+))
